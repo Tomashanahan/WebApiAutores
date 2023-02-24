@@ -11,4 +11,3 @@ var app = builder.Build();
 startUp.Cofigure(app, app.Environment);
 
 app.Run();
-
