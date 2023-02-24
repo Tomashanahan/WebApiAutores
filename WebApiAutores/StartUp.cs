@@ -13,6 +13,7 @@ namespace WebApiAutores
 
         public IConfiguration Configuration { get; }
 
+
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers().AddJsonOptions(jsonOption =>
@@ -47,11 +48,6 @@ namespace WebApiAutores
             {
                 endpoints.MapControllers();
             });
-        }
-
-        internal void CofigureServices(IServiceCollection services)
-        {
-            throw new NotImplementedException();
         }
     }
 }
